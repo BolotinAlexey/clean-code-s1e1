@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <title>Todo App</title>
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
     <link rel="stylesheet" href="style.css" media="screen">
@@ -17,7 +17,7 @@
         <h2 class="section__title visually-hidden">Add todo</h2>
         <label class="section-add__label" for="new-task">Add Item</label>
         <div class="section-add__wrapper">
-          <input id="new-task" class="section__input-task_adding" type="text">
+          <input id="new-task" class="section-add__input" type="text">
           <button id="button-add" class="section__button section__button_adding">Add</button>
         </div>
       </section>
@@ -46,7 +46,7 @@
     </section>
     <section class="section section-completed">
       <h2 class="section__title">Completed</h2>
-      <ul id="completed-tasks" class="section__list section-comleted__list">
+      <ul id="completed-tasks" class="section__list">
         <li class="section__item">
           <input type="checkbox" class=" section__input-checkbox" checked>
           <label class="section__label">See the Doctor</label>
